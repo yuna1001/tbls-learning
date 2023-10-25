@@ -14,6 +14,6 @@ tbls doc -f
 #### excel出力方法
 1.  ルート階層で以下コマンドを実行
 ```
-tbls out -t xlsx -o ./docs/schema/shema.xlsx
+tbls out -t xlsx -o ./database/docs/tables.xlsx
 ```
 
