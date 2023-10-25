@@ -1,6 +1,6 @@
 ### 使い方
 
-#### ドキュメント閲覧
+#### ドキュメント閲覧方法
 https://github.com/yuna1001/tbls-learning/blob/main/database/docs/README.md
 
 #### スキーマ作成方法
