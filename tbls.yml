@@ -1,2 +1,5 @@
 dsn: mysql://sail:password@localhost:3306/example_app
 docPath: ./database/docs
+# detectVirtualRelations:
+#   enabled: true
+#   strategy: singularTableName
