@@ -8,7 +8,7 @@
 | [migrations](migrations.md) | 3 |  | BASE TABLE |
 | [password_reset_tokens](password_reset_tokens.md) | 3 |  | BASE TABLE |
 | [personal_access_tokens](personal_access_tokens.md) | 10 |  | BASE TABLE |
-| [user_profiles](user_profiles.md) | 4 |  | BASE TABLE |
+| [user_profiles](user_profiles.md) | 4 | ユーザープロフィール | BASE TABLE |
 | [users](users.md) | 8 |  | BASE TABLE |
 
 ## Relations

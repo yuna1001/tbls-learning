@@ -2,6 +2,8 @@
 
 ## Description
 
+ユーザープロフィール
+
 <details>
 <summary><strong>Table Definition</strong></summary>
 
@@ -14,7 +16,7 @@ CREATE TABLE `user_profiles` (
   PRIMARY KEY (`id`),
   KEY `user_profiles_user_id_foreign` (`user_id`),
   CONSTRAINT `user_profiles_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='ユーザープロフィール'
 ```
 
 </details>

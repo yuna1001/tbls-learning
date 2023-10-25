@@ -12,6 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('user_profiles', function (Blueprint $table) {
+            $table->comment('ユーザープロフィール');
             $table->id()->comment('ユーザープロフィールID');
             $table->foreignId('user_id')->constrained()->onDelete('cascade')->comment('ユーザーID');
             $table->timestamps();
