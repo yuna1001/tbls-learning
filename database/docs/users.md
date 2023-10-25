@@ -26,7 +26,7 @@ CREATE TABLE `users` (
 
 | Name | Type | Default | Nullable | Extra Definition | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | ---------------- | -------- | ------- | ------- |
-| id | bigint unsigned |  | false | auto_increment |  |  |  |
+| id | bigint unsigned |  | false | auto_increment | [user_profiles](user_profiles.md) |  |  |
 | name | varchar(255) |  | true |  |  |  | ユーザー名 |
 | email | varchar(255) |  | false |  |  |  |  |
 | email_verified_at | timestamp |  | true |  |  |  |  |
